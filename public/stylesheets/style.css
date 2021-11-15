@@ -1,0 +1,289 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.contenedor{
+  width: 100%;
+  max-width: 1170px;
+  margin: auto;
+}
+
+/*----- Header ------*/
+
+header{
+  width: 100%;
+  background-color: #e0e0e0;
+}
+
+/*----- Logo ------*/
+
+.logo{
+  padding: 25px 0;
+
+}
+
+
+.logo img{
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+/*----- Nav bar------*/
+.menu{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #7a7a7a;
+  font-weight: 100;
+  font-size: 20px;
+
+  transition: all ,0.3s ease-in-out;
+}
+
+.menu a:hover{
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+}
+
+/*----- Fin de Header ------*/
+
+/*----- banner------*/
+
+.banner{
+  width: 100%;
+  height: 500px;
+  background-image: url(/images/b.montaña.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.banner > div{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(63, 63, 63, 0.5);
+}
+
+.llamada_accion{
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  margin: auto;
+}
+
+.llamada_accion p{
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.llamada_accion h2{
+  font-size: 42px;
+  color: white;
+  width: 100%;
+  max-width: 470px;
+
+
+  padding: 40px 0;
+  background-color: rgba(255, 255, 255, 0.4);
+
+}
+
+.llamada_accion a{
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.47);
+  margin-top: 35px;
+  border-radius: 10px;
+
+  transition: all ,0.3s ease-in-out;
+
+}
+
+.llamada_accion a:hover{
+  color: black;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+/*----- Fin de  banner------*/
+
+/*----- Sección de Bienvenida------*/
+
+.bienvenida{
+  width: 100%;
+  background-color: rgba(63, 63, 63, 0.5);
+  margin-top: 2px;
+  color: white;
+  text-align: center;
+}
+
+.bienvenida h3{
+  font-size: 16px;
+  padding-top: 45px;
+  padding-bottom: 40px;
+  margin-top: 2px;
+}
+
+.bienvenida p{
+  font-size: 16px;
+  padding-bottom: 35px;
+  line-height: 1.7em;
+  max-width: 370px;
+  margin: 0 auto;
+}
+
+/*----- Cierre Sección de Bienvenida------*/
+
+/*----- Sección Sobre Nosotros------*/
+
+.nosotros{
+  padding-bottom: 80px;
+}
+
+.nosotros > .contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.foto_equipo{
+  width: 100%;
+  max-width: 540px;
+  border-radius: 10px;
+}
+
+.foto_equipo img{
+  width: 100%;
+  border-radius: 30px;
+
+}
+
+.conocenos{
+  text-align: center;
+  padding: 16px 0;
+  max-width: 540px;
+}
+
+.conocenos p:nth-child(1){
+  font-size: 20px;
+  color: rgb(0, 8, 80);
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.conocenos h3{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  color: #0e96dd;
+}
+
+.conocenos p:nth-child(3){
+  font-size: 14px;
+  color: #3c1c22;
+  padding-bottom: 25px;
+  
+}
+
+.conocenos p:nth-child(4){
+  font-size: 14px;
+  color: #000000;
+  padding-bottom: 20px;
+  font-weight: 300;
+}
+
+.conocenos a{
+  color: #0e96dd;
+  font-size: 15px;
+}
+
+/*----- Fin Sección Sobre Nosotros------*/
+
+/*----- Sección Pie de Pagina ------*/
+
+.top_footer{
+  background-color: black;
+  height: 25px;
+}
+
+.center_footer{
+  background-color: black;
+}
+
+.center_footer .contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.center_footer .widget{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  color: #e0e0e0;
+  max-width: 270px;
+  margin: 0 auto;
+}
+
+.center_footer .widget h4{
+  padding-bottom: 35px;
+  font-size: 18px;
+}
+
+.center_footer .widget p{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+.bottom_footer{
+  background-color: black;
+  height: 25px;
+  margin: 0;
+}
+
+.bottom_footer p{
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+}
+
+
+@media all and (min-width:769px) {
+  .nosotros{
+    padding-top: 80px;
+  }
+
+  .foto_equipo{
+    margin-right: 30px;
+  }
+
+  .conocenos{
+    padding-left: 30px;
+    text-align: left;
+  }
+  
+}
+
+
+
